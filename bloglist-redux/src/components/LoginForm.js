@@ -26,7 +26,7 @@ const LoginForm = () => {
     dispatch(loginUser({ username, password }))
     setUsername('')
     setPassword('')
-    history.push('/blogs',{ from: "LoginForm" })
+    //history.push('/blogs',{ from: "LoginForm" })
   }
 
   return (
