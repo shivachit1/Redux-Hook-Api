@@ -71,7 +71,7 @@ const BlogDetails = () => {
           <h5>comments</h5>
           <form onSubmit={addComment}>
             <input name="comment" placeholder="leave comment here" />
-            <Button style={{marginLeft:15}} variant="success">add comment</Button>
+            <Button type="submit" style={{marginLeft:15}} variant="success">add comment</Button>
           </form>
 
           <ul>

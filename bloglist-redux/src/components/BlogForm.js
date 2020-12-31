@@ -28,7 +28,7 @@ const BlogForm = ({ toggle }) => {
     <div>
       <h2>Create new Blog</h2>
       <Form onSubmit={addBlog}>
-        <Form.Group as={'Row'}>
+        <Form.Group>
         <Form.Label>Title:</Form.Label>
           <Form.Control
              id="title"
